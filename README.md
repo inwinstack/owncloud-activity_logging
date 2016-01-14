@@ -15,3 +15,4 @@ If the <ocsid> field in **appinfo/info.xml** is not present, a new app will be c
 After [Installing PHPUnit](http://phpunit.de/getting-started.html) run:
 
     phpunit -c phpunit.xml
+
