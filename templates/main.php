@@ -1,6 +1,6 @@
 <?php
-script('logextension', 'script');
-style('logextension', 'style');
+script('activity_logging', 'script');
+style('activity_logging', 'style');
 ?>
 
 <div id="app">

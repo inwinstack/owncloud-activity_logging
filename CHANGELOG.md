@@ -1,2 +1,2 @@
-owncloud-logextension (0.0.1)
+owncloud-activity_logging (0.0.1)
 * First release

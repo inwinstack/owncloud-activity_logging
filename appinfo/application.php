@@ -1,15 +1,15 @@
 <?php
 
-namespace OCA\LogExtension\AppInfo;
+namespace OCA\Activity_Logging\AppInfo;
 
 use \OCP\AppFramework\App;
 
-use \OCA\LogExtension\UserHooks;
+use \OCA\Activity_Logging\UserHooks;
 
 class Application extends App {
 
     public function __construct(array $urlParams=array()){
-        parent::__construct('logextension', $urlParams);
+        parent::__construct('activity_logging', $urlParams);
 
         $container = $this->getContainer();
 

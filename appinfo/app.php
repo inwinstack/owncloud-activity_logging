@@ -1,6 +1,6 @@
 <?php
 /**
- * ownCloud - logextension
+ * ownCloud - activity_logging
  *
  * This file is licensed under the Affero General Public License version 3 or
  * later. See the COPYING file.
@@ -9,7 +9,7 @@
  * @copyright Julius Chen 2016
  */
 
-namespace OCA\LogExtension\AppInfo;
+namespace OCA\Activity_Logging\AppInfo;
 
 $app = new Application();  
 $app->getContainer()->query('UserHooks')->register(); 

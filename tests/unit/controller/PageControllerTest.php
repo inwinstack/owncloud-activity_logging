@@ -1,6 +1,6 @@
 <?php
 /**
- * ownCloud - logextension
+ * ownCloud - activity_logging
  *
  * This file is licensed under the Affero General Public License version 3 or
  * later. See the COPYING file.
@@ -9,7 +9,7 @@
  * @copyright Julius Chen 2016
  */
 
-namespace OCA\LogExtension\Controller;
+namespace OCA\Activity_Logging\Controller;
 
 use PHPUnit_Framework_TestCase;
 
@@ -25,7 +25,7 @@ class PageControllerTest extends PHPUnit_Framework_TestCase {
 		$request = $this->getMockBuilder('OCP\IRequest')->getMock();
 
 		$this->controller = new PageController(
-			'logextension', $request, $this->userId
+			'activity_logging', $request, $this->userId
 		);
 	}
 

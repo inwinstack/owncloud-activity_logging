@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <info>
-    <id>logextension</id>
+    <id>activity_logging</id>
     <name>Log Extension</name>
     <description>Enhance log records</description>
     <licence>AGPL</licence>
     <author>Julius Chen</author>
     <version>0.0.1</version>
-    <namespace>LogExtension</namespace>
+    <namespace>Activity_Logging</namespace>
     <category>other</category>
     <dependencies>
         <owncloud min-version="8" />

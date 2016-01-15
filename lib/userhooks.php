@@ -1,6 +1,6 @@
 <?php
 
-namespace OCA\LogExtension;
+namespace OCA\Activity_Logging;
 
 use OCP\Util;
 use OCP\User;
