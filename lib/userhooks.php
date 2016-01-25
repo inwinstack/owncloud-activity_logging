@@ -35,19 +35,19 @@ class UserHooks {
         };
 
         $createRecord = function($node) {
-            Util::writeLog('activity',"user:" . User::getDisplayName() . " action:cretes " . $node->getName() . " sucess", Util::INFO);
+            Util::writeLog('activity',"user:" . User::getDisplayName() . " action:creates " . $node->getName() . " success", Util::INFO);
         };
 
         $deleteRecord = function($node) {
-            Util::writeLog('activity',"user:" . User::getDisplayName() . " action:deletes " . $node->getName() . " sucess", Util::INFO);
+            Util::writeLog('activity',"user:" . User::getDisplayName() . " action:deletes " . $node->getName() . " success", Util::INFO);
         };
 
         $renameRecord = function($node) {
-            Util::writeLog('activity',"user:" . User::getDisplayName() . " action:renames " . $node->getName() . " sucess", Util::INFO);
+            Util::writeLog('activity',"user:" . User::getDisplayName() . " action:renames " . $node->getName() . " success", Util::INFO);
         };
 
         $touchRecord = function($node) {
-            Util::writeLog('activity',"user:" . User::getDisplayName() . " action:touches " . $node->getName() . " sucess", Util::INFO);
+            Util::writeLog('activity',"user:" . User::getDisplayName() . " action:touches " . $node->getName() . " success", Util::INFO);
         };
 
         Util::connectHook('OCP\Share', 'post_shared', 'OCA\Activity_Logging\UserHooks', 'share');
