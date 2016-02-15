@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <info>
     <id>activity_logging</id>
-    <name>Log Extension</name>
-    <description>Enhance log records</description>
+    <name>Activity Log Extension</name>
+    <description>Extend original log with additional activity records, records such as: User log in and out, CRUD files and folders, share file and folder with group or users.</description>
     <licence>AGPL</licence>
     <author>Julius Chen</author>
     <version>0.0.1</version>
