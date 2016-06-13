@@ -8,6 +8,9 @@
     <version>0.0.1</version>
     <namespace>Activity_Logging</namespace>
     <category>other</category>
+    <types>
+      <prelogin/>
+    </types>
     <dependencies>
         <owncloud min-version="8" />
     </dependencies>
