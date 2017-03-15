@@ -34,7 +34,7 @@ class UserHooks {
 
         $logoutRecord = function() {
             $UserRole = \OC::$server->getConfig()->getUserValue(\OC_User::getUser(), "settings", "role","undefined");
-            Util::writeLog('core',"user:" . User::getDisplayName() . " role:" . $this->UserRole . " action:logout success", Util::INFO);
+            Util::writeLog('core',"user:" . User::getDisplayName() . " role:" . $UserRole . " action:logout success", Util::INFO);
         };
 
         $createRecord = function($node) {
