@@ -99,7 +99,7 @@ class UserHooks {
     public static function getBrowser($userAgent) {
         $browser        =   "undefined";
         $browser_array  =   array(
-                '/msie/i'       =>  'IE',
+                '/msie|trident/i'       =>  'IE',
                 '/firefox/i'    =>  'Firefox',
                 '/safari/i'     =>  'Safari',
                 '/chrome/i'     =>  'Chrome',
