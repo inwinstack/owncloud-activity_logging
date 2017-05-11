@@ -110,6 +110,7 @@ class UserHooks {
                 '/konqueror/i'  =>  'Konqueror',
                 '/mobile/i'     =>  'Handheld_Browser',
                 '/MOE_Storage/i'=>  'Desktop',
+                '/ownCloud-android/i' => 'Mobile',
         );
         
         foreach ($browser_array as $regex => $value) {
