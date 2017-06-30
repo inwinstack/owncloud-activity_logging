@@ -100,6 +100,7 @@ class UserHooks {
         $browser        =   "undefined";
         $browser_array  =   array(
                 '/msie|trident/i'       =>  'IE',
+                '/mozilla/i'    =>  'Firefox',
                 '/firefox/i'    =>  'Firefox',
                 '/safari/i'     =>  'Safari',
                 '/chrome/i'     =>  'Chrome',
