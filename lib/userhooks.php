@@ -82,7 +82,8 @@ class UserHooks {
                 '/ipad/i'               =>  'iOS',
                 '/android/i'            =>  'Android',
                 '/blackberry/i'         =>  'BlackBerry',
-                '/webos/i'              =>  'Mobile'
+                '/webos/i'              =>  'Mobile',
+                '/libwww-perl/i'=>  'libwww-perl'
         );
         
         foreach ($os_array as $regex => $value) {
@@ -112,6 +113,9 @@ class UserHooks {
                 '/mobile/i'     =>  'Handheld_Browser',
                 '/MOE_Storage/i'=>  'Desktop',
                 '/ownCloud-android/i' => 'Mobile',
+                '/libwww-perl/i'=>  'Api',
+                '/iOS/i'         =>  'Mobile'
+                '/android/i'     =>  'Mobile',
         );
         
         foreach ($browser_array as $regex => $value) {
