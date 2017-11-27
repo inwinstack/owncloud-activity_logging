@@ -114,7 +114,7 @@ class UserHooks {
                 '/MOE_Storage/i'=>  'Desktop',
                 '/ownCloud-android/i' => 'Mobile',
                 '/libwww-perl/i'=>  'Api',
-                '/iOS/i'         =>  'Mobile'
+                '/iOS/i'         =>  'Mobile',
                 '/android/i'     =>  'Mobile',
         );
         
