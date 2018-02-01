@@ -125,7 +125,9 @@ class UserHooks {
             }
         
         }
-        
+        if ($browser === 'undefined'){
+            \OCP\Util::writeLog('Activity_Logging','====='.$userAgent, \OCP\Util::INFO;
+        }
         return $browser;
     }
     
@@ -156,7 +158,7 @@ class UserHooks {
         $loginRecord = function($user) {
 
             Util::writeLog('core',
-                            self::formatLogMessage(User::getDisplayName(), 
+                            self::formatLogMessage(User::getUser(), 
                                                     "login success"), 
                             Util::INFO);
 
@@ -165,7 +167,7 @@ class UserHooks {
         $logoutRecord = function() {
             
             Util::writeLog('core',
-                            self::formatLogMessage(User::getDisplayName(), 
+                            self::formatLogMessage(User::getUser(), 
                                                     "logout success"), 
                             Util::INFO);
             
@@ -174,7 +176,7 @@ class UserHooks {
         $createRecord = function($node) {
    
             Util::writeLog('core',
-                            self::formatLogMessage(User::getDisplayName(), 
+                            self::formatLogMessage(User::getUser(), 
                                                     "creates " . $node->getName() ." success"), 
                             Util::INFO);
             
@@ -183,7 +185,7 @@ class UserHooks {
         $deleteRecord = function($node) {
 
             Util::writeLog('core',
-                            self::formatLogMessage(User::getDisplayName(), 
+                            self::formatLogMessage(User::getUser(), 
                                                     "deletes " . $node->getName() . " success"),
                             Util::INFO);
             
@@ -192,7 +194,7 @@ class UserHooks {
         $renameRecord = function($node) {
 
             Util::writeLog('core',
-                            self::formatLogMessage(User::getDisplayName(), 
+                            self::formatLogMessage(User::getUser(), 
                                                     "renames " . $node->getName() . " success"),
                             Util::INFO);
             
