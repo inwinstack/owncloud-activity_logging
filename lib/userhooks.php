@@ -126,7 +126,7 @@ class UserHooks {
         
         }
         if ($browser === 'undefined'){
-            \OCP\Util::writeLog('Activity_Logging','====='.$userAgent, \OCP\Util::INFO;
+            \OCP\Util::writeLog('Activity_Logging','====='.$userAgent, \OCP\Util::INFO);
         }
         return $browser;
     }
